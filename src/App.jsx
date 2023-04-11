@@ -4,7 +4,7 @@ import './App.css'
 let quotes = ["Books are more than the words they contain. They are also tools to stimulate your senses and adjust your thinking.", "...Justice is subject to dispute; might is easily recognized and is not disputed. So we cannot give might to justice, because might has gainsaid justice, and has declared that it is she herself who is just. And thus being unable to make what is just strong, we have made what is strong just." , "In theory, there is no difference between theory and practice. But in practice, there is.", "La vida es hermosa, pero es doblemente hermosa si se tiene una causa","Experiencing the world through endless second hand information is not enough, if we want authenticity, we have to initiate it !"];
 
               
-let authors = ["Shogo Makishima","Blaise Pascal","?", "Pepe Mojica", "Travis Rice"];
+let authors = ["Shogo Makishima","Blaise Pascal","?", "Pepe Mòjica", "Travis Rice"];
 
 const TextInput = (props) => {
   return (<blockquote id="text">{props.text}</blockquote>);
